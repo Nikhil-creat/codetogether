@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  server:
+    build: ./server
+    ports:
+      - "4000:4000"
+    environment:
+      - JWT_SECRET=change-this-in-production
+    volumes:
+      - server-data:/app/data
+
+  client:
+    build:
+      context: ./client
+      args:
+        VITE_API_BASE: http://localhost:4000
+    ports:
+      - "8080:80"
+    depends_on:
+      - server
+
+volumes:
+  server-data:

@@ -1,0 +1,18 @@
+{
+  "name": "collab-editor-server",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "ws": "^8.18.0",
+    "better-sqlite3": "^11.3.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "yjs": "^13.6.18",
+    "dotenv": "^16.4.5"
+  }
+}
