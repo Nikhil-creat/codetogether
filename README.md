@@ -102,3 +102,15 @@ docker compose up --build
 - In-browser code execution sandbox (e.g. Judge0 API) to actually run submitted code.
 - Role-based permissions (viewer vs editor vs owner) enforced per-file.
 - Voice/video via WebRTC alongside the code session.
+
+## 👤 About the Builder
+
+**NIKHIL CHARY SRIRAMOJU**
+B.Tech Final Year — Computer Science & Engineering
+
+- 🔗 LinkedIn: [nikhil-chary-sriramoju](https://in.linkedin.com/in/nikhil-chary-sriramoju-95041b38a)
+- 💻 GitHub: [Nikhil-creat](https://github.com/Nikhil-creat)
+- 📧 Email: sriramojunikhil66@gmail.com
+- 📸 Instagram: [nikhil__sriramoju](https://www.instagram.com/nikhil__sriramoju)
+
+  
